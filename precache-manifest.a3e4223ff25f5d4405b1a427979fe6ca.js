@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "141f547deb125b15feb6",
+    "revision": "7754743389aa55a64f13",
     "url": "/profile/static/css/main.14e6c090.chunk.css"
   },
   {
-    "revision": "141f547deb125b15feb6",
-    "url": "/profile/static/js/main.00a1eb39.chunk.js"
+    "revision": "7754743389aa55a64f13",
+    "url": "/profile/static/js/main.f234c148.chunk.js"
   },
   {
     "revision": "3660205280137fe7475d",
@@ -216,8 +216,8 @@ self.__precacheManifest = [
     "url": "/profile/static/media/contactsYellow.50bfcd05.svg"
   },
   {
-    "revision": "7a72e6c8ca3a7066f323ab931fd55807",
-    "url": "/profile/static/media/resume.7a72e6c8.pdf"
+    "revision": "da97a2b1913aea46ea25c516def9a093",
+    "url": "/profile/static/media/Ishank Resume - New.da97a2b1.pdf"
   },
   {
     "revision": "e6255d3eb51be344d865edce6cc1cea5",
@@ -628,6 +628,14 @@ self.__precacheManifest = [
     "url": "/profile/static/media/BestermindRegular.58f07bc1.ttf"
   },
   {
+    "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
+    "url": "/profile/static/media/slick.b7c9e1e4.woff"
+  },
+  {
+    "revision": "d41f55a78e6f49a5512878df1737e58a",
+    "url": "/profile/static/media/slick.d41f55a7.ttf"
+  },
+  {
     "revision": "ced611daf7709cc778da928fec876475",
     "url": "/profile/static/media/slick.ced611da.eot"
   },
@@ -636,15 +644,7 @@ self.__precacheManifest = [
     "url": "/profile/static/media/slick.f97e3bbf.svg"
   },
   {
-    "revision": "d41f55a78e6f49a5512878df1737e58a",
-    "url": "/profile/static/media/slick.d41f55a7.ttf"
-  },
-  {
-    "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
-    "url": "/profile/static/media/slick.b7c9e1e4.woff"
-  },
-  {
-    "revision": "dcd0d0ea83ad1d3e10b26db096cdd769",
+    "revision": "b83b8b0117a72540391241bf99d10370",
     "url": "/profile/index.html"
   }
 ];
