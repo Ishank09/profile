@@ -5,7 +5,7 @@ import { IoMenuSharp, IoHomeSharp } from 'react-icons/io5';
 import { HiDocumentText } from 'react-icons/hi';
 import { BsFillGearFill } from 'react-icons/bs';
 import { MdPhone } from 'react-icons/md';
-import { FaUser, FaFolderOpen, FaCertificate, FaSchool, FaUserGraduate} from 'react-icons/fa';
+import { FaUser, FaFolderOpen, FaCertificate, FaSchool, FaUserGraduate, FaRegStar} from 'react-icons/fa';
 import { makeStyles } from '@material-ui/core/styles';
 import Drawer from '@material-ui/core/Drawer';
 import CloseIcon from '@material-ui/icons/Close';
@@ -47,7 +47,7 @@ function Navbar() {
             },
         },
         MuiDrawer: {
-            padding: '0em 1.8em',
+            // padding: '0em 1.8em',
             width: '14em',
             fontFamily: ' var(--primaryFont)',
             fontStyle: ' normal',
@@ -83,7 +83,7 @@ function Navbar() {
             borderRadius: '78.8418px',
             background: theme.secondary,
             color: theme.primary,
-            width: '100%',
+            width: '80%',
             height: '60px',
             display: 'flex',
             alignItems: 'center',
@@ -242,7 +242,8 @@ function Navbar() {
                                 </div>
                             </NavLink>
                         </Fade>
-                        <Fade left>
+
+                        {/* <Fade left>
                             <NavLink
                                 to='/#resume'
                                 smooth={true}
@@ -258,7 +259,7 @@ function Navbar() {
                                     </span>
                                 </div>
                             </NavLink>
-                        </Fade>
+                        </Fade> */}
 
                         {/* <Fade left>
                             <NavLink
@@ -295,6 +296,21 @@ function Navbar() {
                                 </div>
                             </NavLink>
                         </Fade> */}
+                        <Fade left>
+                            <NavLink
+                                to='/#achievement'
+                                smooth={true}
+                                spy='true'
+                                duration={2000}
+                            >
+                                <div className={classes.drawerItem}>
+                                    <FaRegStar className={classes.drawerIcon} />
+                                    <span className={classes.drawerLinks}>
+                                    Achievement
+                                    </span>
+                                </div>
+                            </NavLink>
+                        </Fade>
 
                         <Fade left>
                             <NavLink
@@ -312,9 +328,11 @@ function Navbar() {
                             </NavLink>
                         </Fade>
 
+                 
+
                         <Fade left>
                             <NavLink
-                                to='/#contacts'
+                                to='/#contact'
                                 smooth={true}
                                 spy='true'
                                 duration={2000}

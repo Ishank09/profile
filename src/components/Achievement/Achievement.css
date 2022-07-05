@@ -53,7 +53,30 @@
     width: 100%;
     position: relative;
 }
-
+.achievement--viewAll {
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 2rem;
+}
+.achievement--viewAll a button {
+    outline: none;
+    border: none;
+    width: 150px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: inherit;
+    border-radius: 45px;
+    font-size: 1.05rem;
+    font-family: var(--primaryFont);
+    font-weight: 500;
+    padding-left: 1.5rem;
+    cursor: pointer;
+}
 .achievecard-content {
     display: flex;
     flex-direction: column;
@@ -76,11 +99,11 @@
 }
 
 .achievecard-details2 h5 {
-   width: 50%;
+   width: 100%;
 }
 
 .achievecard-field {
-    width: 50%;
+    width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -207,6 +230,15 @@
     .achievecard-imgcontainer > img {
         width: 80px;
         height: 70px;
+    }
+    .achievement--viewAll {
+        position: relative;
+        margin-top: 4rem;
+    }
+    .achievement--viewAll a {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);  
     }
     
 }

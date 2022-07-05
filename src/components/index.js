@@ -16,5 +16,5 @@ export { default as SingleProject } from './Projects/SingleProject/SingleProject
 export { default as SingleCertificate } from './Certificate/SingleCertificate/SingleCertificate'
 export { default as SingleService } from './Services/SingleService/SingleService'
 export { default as Achievement } from './Achievement/Achievement'
-
+export { default as AchievementCard } from './Achievement/AchievementCard'
 export { default as BackToTop } from'./BackToTop/BackToTop'
