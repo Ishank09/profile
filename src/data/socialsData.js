@@ -3,6 +3,8 @@ export const socialsData = {
     facebook: 'https://www.facebook.com/ishankvasania',
     linkedIn: 'https://www.linkedin.com/in/ishank-vasania/',
     instagram: 'https://www.instagram.com/',
+    researchGate: 'https://www.researchgate.net/profile/Ishank-Vasania',
+    emailId: 'ishankvasania09@gmail.com'
     // codepen: 'https://codepen.io/',
     // twitter: 'https://twitter.com/',
     // reddit: 'https://www.reddit.com/user/',

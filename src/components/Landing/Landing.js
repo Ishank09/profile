@@ -15,6 +15,7 @@ import {
     FaGithub,
     FaFacebook,
     FaInstagram,
+    FaResearchgate,
 } from 'react-icons/fa';
 import { FiPhone, FiAtSign } from 'react-icons/fi';
 function Landing() {
@@ -116,8 +117,9 @@ function Landing() {
                                 />
                             </a>
                         )}
-                        <a
-                            href={`mailto:${contactsData.email}`}
+                        {socialsData.emailId && (
+                            <a
+                            href={`mailto:${socialsData.emailId}`}
                             ctarget='_blank'
                             rel='Ishank Vasania'
                         >
@@ -125,9 +127,12 @@ function Landing() {
                             <FiAtSign
                                     className='landing--social'
                                     style={{ color: theme.secondary }}
-                                    aria-label='Facebook'
+                                    aria-label='Email'
                                 />
                         </a>
+                        )}
+                        
+                      
                         {/* {socialsData.youtube && (
                             <a
                                 href={socialsData.youtube}
