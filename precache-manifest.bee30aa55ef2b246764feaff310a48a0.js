@@ -628,10 +628,6 @@ self.__precacheManifest = [
     "url": "/profile/static/media/BestermindRegular.58f07bc1.ttf"
   },
   {
-    "revision": "ced611daf7709cc778da928fec876475",
-    "url": "/profile/static/media/slick.ced611da.eot"
-  },
-  {
     "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
     "url": "/profile/static/media/slick.b7c9e1e4.woff"
   },
@@ -640,11 +636,15 @@ self.__precacheManifest = [
     "url": "/profile/static/media/slick.f97e3bbf.svg"
   },
   {
+    "revision": "ced611daf7709cc778da928fec876475",
+    "url": "/profile/static/media/slick.ced611da.eot"
+  },
+  {
     "revision": "d41f55a78e6f49a5512878df1737e58a",
     "url": "/profile/static/media/slick.d41f55a7.ttf"
   },
   {
-    "revision": "4e50c2d9cca1dfcbb766e07a89181a5d",
+    "revision": "efb672823b6c3185b31555e733399545",
     "url": "/profile/index.html"
   }
 ];
