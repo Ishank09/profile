@@ -11,10 +11,10 @@ function Publication() {
 
     const { theme } = useContext(ThemeContext);
     return (
-        <div className="education" id="publications" style={{backgroundColor: theme.secondary}}>
+        <div className="publication" id="publications" style={{backgroundColor: theme.secondary}}>
            
-            <div className="education-body">
-                <div className="education-description">
+            <div className="publication-body">
+                <div className="publication-description">
                 <h1 style={{color:theme.primary}}>Publications</h1>
                     {publicationData.map(edu => (
                         <PublicationCard 
@@ -29,7 +29,7 @@ function Publication() {
                         />
                     ))}
                 </div>
-                <div className="education-image">
+                <div className="publication-image">
                     <img src={theme.eduimg} alt=""/>
                 </div>
             </div>

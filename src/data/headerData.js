@@ -1,4 +1,4 @@
-import resume from '../assets/pdf/resume.pdf'
+import resume from '../assets/pdf/Ishank Resume - New.pdf'
 
 export const headerData = {
     name: 'Ishank Vasania',

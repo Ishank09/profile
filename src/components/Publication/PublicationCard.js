@@ -13,7 +13,7 @@ function PublicationCard({ id, name, journal, publicationDetails, startYear,desc
     const { theme } = useContext(ThemeContext);
 
     const useStyles = makeStyles((t) => ({
-        educationCard : {
+        publicationCard : {
             backgroundColor:theme.primary30,
             "&:hover": {
                 backgroundColor:theme.primary50,
@@ -25,11 +25,11 @@ function PublicationCard({ id, name, journal, publicationDetails, startYear,desc
 
     return (
         <Fade bottom>
-            <div key={id} className={`education-card ${classes.educationCard}`} >
+            <div key={id} className={`publication-card ${classes.publicationCard}`} >
                 <div className="educard-img" style={{backgroundColor: theme.primary}}>
                     <img src={theme.type === 'light' ? eduImgBlack : eduImgWhite} alt="" />
                 </div>
-                <div className="education-details">
+                <div className="publication-details">
                     <h6 style={{color: theme.primary}}>{startYear}</h6>
                     <h4 style={{color: theme.tertiary}}>{name}</h4>
                     <h5 style={{color: theme.tertiary80}}>{journal}</h5>
