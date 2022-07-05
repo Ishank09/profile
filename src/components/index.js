@@ -17,4 +17,6 @@ export { default as SingleCertificate } from './Certificate/SingleCertificate/Si
 export { default as SingleService } from './Services/SingleService/SingleService'
 export { default as Achievement } from './Achievement/Achievement'
 export { default as AchievementCard } from './Achievement/AchievementCard'
+export { default as Publication } from './Publication/Publication'
+export { default as PublicationCard } from './Publication/PublicationCard'
 export { default as BackToTop } from'./BackToTop/BackToTop'

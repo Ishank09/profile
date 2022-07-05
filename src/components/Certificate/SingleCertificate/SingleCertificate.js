@@ -1,6 +1,7 @@
 
 import React,{ useContext} from 'react';
 import { makeStyles } from '@material-ui/core/styles';
+import Tooltip from "@material-ui/core/Tooltip";
 import { FaPlay, FaCode } from 'react-icons/fa';
 import Fade from 'react-reveal/Fade';
 import { ThemeContext } from '../../../contexts/ThemeContext';
@@ -10,6 +11,7 @@ import './SingleCertificate.css';
 function SingleCertificate(
     { id,
     issuingOrganization,
+    fullCertificateName,
     name,
     issueDate,
     credentialId, 
@@ -54,7 +56,8 @@ function SingleCertificate(
             >
                   
                 <div className='certificateContent' >
-             
+
+                <Tooltip title={fullCertificateName}>
                     <h2
                         id={name.replace(' ', '-').toLowerCase()}
                         style={{ color: theme.tertiary }}
@@ -62,7 +65,7 @@ function SingleCertificate(
                        {name}
                     </h2>
 
-                
+                    </Tooltip>
                     <img src={issuingOrganizationLogo} style={{width:250 , height:100}} alt={issuingOrganization}></img>
 
                   
@@ -88,7 +91,7 @@ function SingleCertificate(
                         rel='noreferrer'
                         style={{color: theme.tertiary}}
                     >
-                    <h5 >View Certificate</h5>
+                    <h3 >View Certificate</h3>
                     </a>
          
               

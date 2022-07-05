@@ -8,6 +8,7 @@ import { ThemeContext } from '../../contexts/ThemeContext';
 import { headerData } from '../../data/headerData';
 import { socialsData } from '../../data/socialsData';
 import dp from '..\\..\\..\\src\\assets\\png\\dp\\IMG_0467.jpg';
+import { contactsData } from '../../data/contactsData';
 
 import {
     FaLinkedin,
@@ -15,7 +16,7 @@ import {
     FaFacebook,
     FaInstagram,
 } from 'react-icons/fa';
-
+import { FiPhone, FiAtSign } from 'react-icons/fi';
 function Landing() {
     const { theme, drawerOpen } = useContext(ThemeContext);
 
@@ -88,6 +89,7 @@ function Landing() {
                                 />
                             </a>
                         )}
+                          
                         {socialsData.facebook && (
                             <a
                                 href={socialsData.facebook}
@@ -114,6 +116,18 @@ function Landing() {
                                 />
                             </a>
                         )}
+                        <a
+                            href={`mailto:${contactsData.email}`}
+                            ctarget='_blank'
+                            rel='Ishank Vasania'
+                        >
+                            
+                            <FiAtSign
+                                    className='landing--social'
+                                    style={{ color: theme.secondary }}
+                                    aria-label='Facebook'
+                                />
+                        </a>
                         {/* {socialsData.youtube && (
                             <a
                                 href={socialsData.youtube}

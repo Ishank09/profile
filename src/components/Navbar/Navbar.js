@@ -311,6 +311,23 @@ function Navbar() {
                                 </div>
                             </NavLink>
                         </Fade>
+                         <Fade left>
+                            <NavLink
+                                to='/#publications'
+                                smooth={true}
+                                spy='true'
+                                duration={2000}
+                            >
+                                <div className={classes.drawerItem}>
+                                    <HiDocumentText
+                                        className={classes.drawerIcon}
+                                    />
+                                    <span className={classes.drawerLinks}>
+                                        Publications
+                                    </span>
+                                </div>
+                            </NavLink>
+                        </Fade>
 
                         <Fade left>
                             <NavLink
@@ -332,7 +349,7 @@ function Navbar() {
 
                         <Fade left>
                             <NavLink
-                                to='/#contact'
+                                to='/#contacts'
                                 smooth={true}
                                 spy='true'
                                 duration={2000}

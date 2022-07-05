@@ -89,6 +89,7 @@ function CertificatePage() {
                             key={exp.id}
                             id={exp.id}
                             issuingOrganization={exp.issuingOrganization}
+                            fullCertificateName = {exp.name}
                             name={exp.name.length > 33 ?`${exp.name.substring(0, 30)}...` : exp.name}
                             issueDate={exp.issueDate}
                             credentialId={exp.credentialId}

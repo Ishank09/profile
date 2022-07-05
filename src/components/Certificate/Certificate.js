@@ -48,7 +48,7 @@ function Certificate() {
             {certificateData.length > 0 && (
                 <div className="certificate" id="certificate" style={{backgroundColor: theme.secondary}}>
                     <div className="certificate--header">
-                        <h1 style={{color: theme.primary}}>Certificate</h1>
+                        <h1 style={{color: theme.primary}}>Certification</h1>
                     </div>
                     <div className="certificate--body">
                         <div className="certificate--bodyContainer">
@@ -61,6 +61,7 @@ function Certificate() {
                             key={exp.id}
                             id={exp.id}
                             issuingOrganization={exp.issuingOrganization}
+                            fullCertificateName = {exp.name}
                             name={exp.name.length > 33 ?`${exp.name.substring(0, 30)}...` : exp.name}
                             issueDate={exp.issueDate}
                             credentialId={exp.credentialId}
