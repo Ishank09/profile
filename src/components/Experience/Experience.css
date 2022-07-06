@@ -33,7 +33,7 @@
     align-items:flex-start;
     justify-content: flex-start;
     width: 90%;
-    height: 140px;
+    height: 100%;
     padding: 1.5rem;
     border-radius: 20px;
     margin-bottom: 1.5rem;
@@ -63,7 +63,7 @@
     font-family: var(--primaryFont);
     font-size: 0.85rem;
     font-weight: 700;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
 }
 
 .experience-details > h4 {
@@ -135,7 +135,7 @@
     .experience-card {
         padding: 1rem;
         margin-bottom: 1.5rem;
-        height: 130px;
+        height: 100%;
     }
     .expcard-img {
         border-radius: 50%;
@@ -148,7 +148,7 @@
     }
     .experience-details > h6 {
         font-size: 0.85rem;
-        margin-bottom: 0.45rem;
+        margin-bottom: 1rem;
     }
     
     .experience-details > h4 {
