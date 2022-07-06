@@ -7,8 +7,8 @@ import './Landing.css';
 import { ThemeContext } from '../../contexts/ThemeContext';
 import { headerData } from '../../data/headerData';
 import { socialsData } from '../../data/socialsData';
-import dp from '..\\..\\..\\src\\assets\\png\\dp\\IMG_0467.jpg';
-import { contactsData } from '../../data/contactsData';
+import dp from '..\\..\\..\\src\\assets\\png\\dp\\IMG_4353_crop.jpg';
+
 
 import {
     FaLinkedin,

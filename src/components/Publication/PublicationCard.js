@@ -47,7 +47,7 @@ function PublicationCard({ id, name, journal, publicationDetails, startYear,desc
                         rel='noreferrer'
                         style={{color: theme.tertiary}}
                     >
-                    <h6 >View Certificate</h6>
+                    <h6 >View Publication</h6>
                     </a>
          
                 </div>

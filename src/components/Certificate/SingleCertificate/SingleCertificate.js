@@ -91,7 +91,7 @@ function SingleCertificate(
                         rel='noreferrer'
                         style={{color: theme.tertiary}}
                     >
-                    <h3 >View Certificate</h3>
+                    <h6 >View Certificate</h6>
                     </a>
          
               
