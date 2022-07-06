@@ -29,6 +29,25 @@
     margin-top: 5rem;
 }
 
+
+::-webkit-scrollbar {
+    background: rgb(252, 248, 248);
+    /* display: none; */
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(236, 235, 235);
+    width: 10%;
+}
+::-webkit-scrollbar-thumb {
+    background: rgba(114, 112, 112, 0.822);
+  border-radius: 10px;
+  transition: 0.3s;
+  /* width: 10%;
+  height: 10%; */
+}
+
+
 .drawer > .MuiBackdrop-root {
     background: rgba(33, 33, 33, 0.15) !important;
     backdrop-filter: blur(20px) !important;

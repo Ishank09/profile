@@ -5,7 +5,7 @@ import { IoMenuSharp, IoHomeSharp } from 'react-icons/io5';
 import { HiDocumentText } from 'react-icons/hi';
 import { BsFillGearFill } from 'react-icons/bs';
 import { MdPhone } from 'react-icons/md';
-import { FaUser, FaFolderOpen, FaCertificate, FaSchool, FaUserGraduate, FaRegStar} from 'react-icons/fa';
+import { FaUser, FaFolderOpen, FaCertificate, FaSchool, FaUserGraduate, FaRegStar, FaFilePdf, FaFileDownload} from 'react-icons/fa';
 import { makeStyles } from '@material-ui/core/styles';
 import Drawer from '@material-ui/core/Drawer';
 import CloseIcon from '@material-ui/icons/Close';
@@ -48,13 +48,14 @@ function Navbar() {
         },
         MuiDrawer: {
             // padding: '0em 1.8em',
+
             width: '14em',
             fontFamily: ' var(--primaryFont)',
             fontStyle: ' normal',
             fontWeight: ' normal',
             fontSize: ' 24px',
             background: theme.secondary,
-            overflow: 'hidden',
+            overflow: 'scroll',
             borderTopRightRadius: '40px',
             borderBottomRightRadius: '40px',
             [t.breakpoints.down('sm')]: {
@@ -98,7 +99,7 @@ function Navbar() {
                 color: theme.secondary,
             },
             [t.breakpoints.down('sm')]: {
-                width: '100%',
+                width: '80%',
                 padding: '0 25px',
                 height: '55px',
             },
@@ -154,6 +155,7 @@ function Navbar() {
                 }}
                 anchor='left'
                 open={open}
+                
                 classes={{ paper: classes.MuiDrawer }}
                 className='drawer'
                 disableScrollLock={true}
@@ -210,7 +212,25 @@ function Navbar() {
                                 </div>
                             </NavLink>
                         </Fade>
-                        
+                        <Fade left>
+                            <NavLink
+                                to={headerData.resumePdf}
+                                download='Ishank_Vasania_Resume'
+                                target='_blank'
+                                smooth={true}
+                                spy='true'
+                                duration={2000}
+                            >
+                                <div className={classes.drawerItem}>
+                                    <FaFileDownload
+                                        className={classes.drawerIcon}
+                                    />
+                                    <span className={classes.drawerLinks}>
+                                        Resume
+                                    </span>
+                                </div>
+                            </NavLink>
+                        </Fade>
                         <Fade left>
                             <NavLink
                                 to='/#education'
@@ -243,23 +263,7 @@ function Navbar() {
                             </NavLink>
                         </Fade>
 
-                        {/* <Fade left>
-                            <NavLink
-                                to='/#resume'
-                                smooth={true}
-                                spy='true'
-                                duration={2000}
-                            >
-                                <div className={classes.drawerItem}>
-                                    <HiDocumentText
-                                        className={classes.drawerIcon}
-                                    />
-                                    <span className={classes.drawerLinks}>
-                                        Resume
-                                    </span>
-                                </div>
-                            </NavLink>
-                        </Fade> */}
+                   
 
                         {/* <Fade left>
                             <NavLink
