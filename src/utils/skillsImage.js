@@ -94,7 +94,7 @@ export const skillsImage = (skill) => {
             return rprogramming;
         case 'pandas':
             return pandas;
-        case 'Sql Server':
+        case 'sql server':
             return sqlserver;
         case 'gcp':
             return gcp;

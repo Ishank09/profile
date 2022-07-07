@@ -1,11 +1,12 @@
 export const educationData = [
+    
     {
         id: 1,
-        institution: 'Kendriya Vidyalaya',
-        course: 'Higher Secondary Education',
-        startYear: '2013',
-        endYear: '2015',
-        grade: '92.6%'
+        institution: 'University of Washington, Seattle',
+        course: 'Master of Science',
+        startYear: '2022',
+        endYear: 'Present',
+        grade: ''
     },
     {
         id: 2,
@@ -17,10 +18,10 @@ export const educationData = [
     },
     {
         id: 3,
-        institution: 'University of Washington, Seattle',
-        course: 'Master of Science',
-        startYear: '2022',
-        endYear: 'Present',
-        grade: ''
-    },
+        institution: 'Kendriya Vidyalaya',
+        course: 'Higher Secondary Education',
+        startYear: '2013',
+        endYear: '2015',
+        grade: '92.6%'
+    }
 ]
