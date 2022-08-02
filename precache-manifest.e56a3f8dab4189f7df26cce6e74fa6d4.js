@@ -632,12 +632,12 @@ self.__precacheManifest = [
     "url": "/profile/static/media/BestermindRegular.58f07bc1.ttf"
   },
   {
-    "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
-    "url": "/profile/static/media/slick.b7c9e1e4.woff"
-  },
-  {
     "revision": "d41f55a78e6f49a5512878df1737e58a",
     "url": "/profile/static/media/slick.d41f55a7.ttf"
+  },
+  {
+    "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
+    "url": "/profile/static/media/slick.b7c9e1e4.woff"
   },
   {
     "revision": "f97e3bbf73254b0112091d0192f17aec",
@@ -648,7 +648,7 @@ self.__precacheManifest = [
     "url": "/profile/static/media/slick.ced611da.eot"
   },
   {
-    "revision": "c4cb48be0b4bad0c33e91594c88bf78e",
+    "revision": "72c424114e943eecdbff666a7b96e0bf",
     "url": "/profile/index.html"
   }
 ];
