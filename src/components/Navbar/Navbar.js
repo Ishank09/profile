@@ -5,7 +5,7 @@ import { IoMenuSharp, IoHomeSharp } from 'react-icons/io5';
 import { HiDocumentText } from 'react-icons/hi';
 import { BsFillGearFill } from 'react-icons/bs';
 import { MdPhone } from 'react-icons/md';
-import { FaUser, FaFolderOpen, FaCertificate, FaSchool, FaUserGraduate, FaRegStar, FaFilePdf, FaFileDownload} from 'react-icons/fa';
+import { FaUser, FaFolderOpen, FaCertificate, FaSchool, FaUserGraduate, FaRegStar, FaFilePdf, FaFileDownload, FaStar} from 'react-icons/fa';
 import { makeStyles } from '@material-ui/core/styles';
 import Drawer from '@material-ui/core/Drawer';
 import CloseIcon from '@material-ui/icons/Close';
@@ -212,15 +212,17 @@ function Navbar() {
                                 </div>
                             </NavLink>
                         </Fade>
-                        <Fade left>
+                        {/* <Fade left>
                             <NavLink
                                 to={headerData.resumePdf}
                                 download='Ishank_Vasania_Resume'
                                 target='_blank'
+                                rel='noreferrer'
                                 smooth={true}
                                 spy='true'
                                 duration={2000}
                             >
+                                
                                 <div className={classes.drawerItem}>
                                     <FaFileDownload
                                         className={classes.drawerIcon}
@@ -230,7 +232,7 @@ function Navbar() {
                                     </span>
                                 </div>
                             </NavLink>
-                        </Fade>
+                        </Fade> */}
                         <Fade left>
                             <NavLink
                                 to='/#education'
@@ -344,6 +346,22 @@ function Navbar() {
                                     <FaCertificate className={classes.drawerIcon} />
                                     <span className={classes.drawerLinks}>
                                     Certificate
+                                    </span>
+                                </div>
+                            </NavLink>
+                        </Fade>
+
+                        <Fade left>
+                            <NavLink
+                                to='/#volunteer'
+                                smooth={true}
+                                spy='true'
+                                duration={2000}
+                            >
+                                <div className={classes.drawerItem}>
+                                    <FaStar className={classes.drawerIcon} />
+                                    <span className={classes.drawerLinks}>
+                                    Volunteer
                                     </span>
                                 </div>
                             </NavLink>

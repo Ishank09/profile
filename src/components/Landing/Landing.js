@@ -7,7 +7,7 @@ import './Landing.css';
 import { ThemeContext } from '../../contexts/ThemeContext';
 import { headerData } from '../../data/headerData';
 import { socialsData } from '../../data/socialsData';
-import dp from '..\\..\\..\\src\\assets\\png\\dp\\IMG_4353_crop.jpg';
+import dp from '../../../src/assets/png/dp/IMG_4353_crop.jpg';
 
 
 import {

@@ -7,6 +7,7 @@ import { BackToTop } from './components'
 import ScrollToTop from './utils/ScrollToTop'
 
 import './App.css'
+import { BiSitemap } from 'react-icons/bi';
 
 function App() {
 
@@ -26,6 +27,7 @@ function App() {
           <Route path="/projects" exact component={ProjectPage} />
           <Route path="/certificate" exact component={CertificatePage} />
           <Route path="/achievement" exact component={AchievementPage} />
+   
           <Redirect to="/" />
           </Switch>
           

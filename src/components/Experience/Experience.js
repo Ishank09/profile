@@ -30,7 +30,8 @@ function Experience() {
                             company={exp.company}
                             startYear={exp.startYear}
                             endYear={exp.endYear}
-                            type = {exp.type}/>
+                            type = {exp.type}
+                            image = {exp.image}/>
                     ))}
                  </div>
              </div>
