@@ -2,6 +2,8 @@ import coursera from  '../assets/svg/certificate/coursera1.svg';
 import mongoDb from  '../assets/svg/certificate/MongoDB_Logo_RGB_Logo_White.svg';
 import hackerrank from  '../assets/svg/certificate/hackerrank.svg';
 import udemy from  '../assets/svg/certificate/udemy.svg';
+import dell from  '../assets/svg/certificate/dell.svg';
+
 
 export const certificateData = [
     {
@@ -140,5 +142,53 @@ export const certificateData = [
         credentialId: 'UC-9ea453e2-27b9-4ab3-936b-c0209a8efe7f', 
         credentialUrl: 'https://delldigital.udemy.com/certificate/UC-9ea453e2-27b9-4ab3-936b-c0209a8efe7f/',
         issuingOrganizationLogo : udemy
+    },
+    {
+        id: 14,
+        issuingOrganization: 'Dell',
+        name: 'Introduction to Data Engineering',
+        issueDate: 'July 2022',
+        credentialId: '', 
+        credentialUrl: 'https://drive.google.com/file/d/1kk0QsqOMQ-mc5e5jEl2Hy_WNOfrlaYig/view?usp=sharing',
+        issuingOrganizationLogo : dell
+    }
+    ,
+    {
+        id: 15,
+        issuingOrganization: 'Dell',
+        name: 'Data Warehousing with SQL and NoSQL - On-Demand Lab',
+        issueDate: 'July 2022',
+        credentialId: '', 
+        credentialUrl: 'https://drive.google.com/file/d/1iD4Z-h2OlqUqL3rnkKNDL9T1BZOTWRu7/view?usp=sharing',
+        issuingOrganizationLogo : dell
+    }
+    ,
+    {
+        id: 16,
+        issuingOrganization: 'Dell',
+        name: 'Data Warehousing with SQL and NoSQL - On-Demand Course',
+        issueDate: 'July 2022',
+        credentialId: '', 
+        credentialUrl: 'https://drive.google.com/file/d/10DJXITA9CVpHlqdtmyW4XQjQiR_DenBn/view?usp=sharing',
+        issuingOrganizationLogo : dell
+    }
+    ,
+    {
+        id: 17,
+        issuingOrganization: 'Dell',
+        name: 'Data Science and Big Data Analytics v2 On-Demand Lab - Europe ',
+        issueDate: 'July 2022',
+        credentialId: '', 
+        credentialUrl: 'https://drive.google.com/file/d/1CGV-djObLZsNtfwM_QoTMV4_VavImh-e/view?usp=sharing',
+        issuingOrganizationLogo : dell
+    },
+    {
+        id: 18,
+        issuingOrganization: 'Dell',
+        name: 'DCA-Data Science Associate Version 2.0 - Internal ',
+        issueDate: 'July 2022',
+        credentialId: '', 
+        credentialUrl: 'https://drive.google.com/file/d/1_heiEUBSTu5k_ImQZlGo9wydDNemgj0q/view?usp=sharing',
+        issuingOrganizationLogo : dell
     }
 ]

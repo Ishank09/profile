@@ -212,12 +212,12 @@ function Navbar() {
                                 </div>
                             </NavLink>
                         </Fade>
+
                         {/* <Fade left>
                             <NavLink
                                 to={headerData.resumePdf}
                                 download='Ishank_Vasania_Resume'
                                 target='_blank'
-                                rel='noreferrer'
                                 smooth={true}
                                 spy='true'
                                 duration={2000}
@@ -232,7 +232,8 @@ function Navbar() {
                                     </span>
                                 </div>
                             </NavLink>
-                        </Fade> */}
+                        </Fade>
+                         */}
                         <Fade left>
                             <NavLink
                                 to='/#education'
