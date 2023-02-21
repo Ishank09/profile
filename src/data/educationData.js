@@ -6,7 +6,7 @@ export const educationData = [
         course: 'Master of Science',
         startYear: '2022',
         endYear: 'Present',
-        grade: ''
+        grade: '3.88 GPA'
     },
     {
         id: 2,
@@ -14,7 +14,7 @@ export const educationData = [
         course: 'Bachelor of Technology',
         startYear: '2015',
         endYear: '2019',
-        grade: '9.08 CGPA'
+        grade: '3.63 GPA'
     },
     {
         id: 3,
