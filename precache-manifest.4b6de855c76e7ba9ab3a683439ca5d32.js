@@ -644,6 +644,10 @@ self.__precacheManifest = [
     "url": "/profile/static/media/BestermindRegular.58f07bc1.ttf"
   },
   {
+    "revision": "ced611daf7709cc778da928fec876475",
+    "url": "/profile/static/media/slick.ced611da.eot"
+  },
+  {
     "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
     "url": "/profile/static/media/slick.b7c9e1e4.woff"
   },
@@ -654,10 +658,6 @@ self.__precacheManifest = [
   {
     "revision": "f97e3bbf73254b0112091d0192f17aec",
     "url": "/profile/static/media/slick.f97e3bbf.svg"
-  },
-  {
-    "revision": "ced611daf7709cc778da928fec876475",
-    "url": "/profile/static/media/slick.ced611da.eot"
   },
   {
     "revision": "61afa711f68cb7c3b9251a851c6c5652",
