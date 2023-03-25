@@ -1,7 +1,7 @@
 {
   "main.css": "/profile/static/css/main.2d0e1b96.chunk.css",
-  "main.js": "/profile/static/js/main.be54d75c.chunk.js",
-  "main.js.map": "/profile/static/js/main.be54d75c.chunk.js.map",
+  "main.js": "/profile/static/js/main.402e030d.chunk.js",
+  "main.js.map": "/profile/static/js/main.402e030d.chunk.js.map",
   "static/js/1.fbd555a9.chunk.js": "/profile/static/js/1.fbd555a9.chunk.js",
   "static/js/1.fbd555a9.chunk.js.map": "/profile/static/js/1.fbd555a9.chunk.js.map",
   "static/css/2.1a98a4d7.chunk.css": "/profile/static/css/2.1a98a4d7.chunk.css",
@@ -63,7 +63,7 @@
   "static/media/MongoDB_Logo_RGB_Logo_White.svg": "/profile/static/media/MongoDB_Logo_RGB_Logo_White.e10c4f6f.svg",
   "static/media/IIT.png": "/profile/static/media/IIT.44984cae.png",
   "static/media/zoho.png": "/profile/static/media/zoho.1e78182f.png",
-  "static/media/University-of-Washington-Logo.png": "/profile/static/media/University-of-Washington-Logo.94b66fbb.png",
+  "static/media/gix.jpeg": "/profile/static/media/gix.513f6557.jpeg",
   "static/media/expImgWhite.svg": "/profile/static/media/expImgWhite.a72bc9f7.svg",
   "static/media/expImgBlack.svg": "/profile/static/media/expImgBlack.b1b6eb9d.svg",
   "static/media/gcp.svg": "/profile/static/media/gcp.d2115a79.svg",
@@ -164,10 +164,10 @@
   "static/media/iom.PNG": "/profile/static/media/iom.09005b5d.PNG",
   "static/media/interviewbit.PNG": "/profile/static/media/interviewbit.fc7bf191.PNG",
   "static/media/index.css": "/profile/static/media/BestermindRegular.58f07bc1.ttf",
-  "static/media/slick-theme.css": "/profile/static/media/slick.f97e3bbf.svg",
-  "static/css/main.2d0e1b96.chunk.css.map": "/profile/static/css/main.2d0e1b96.chunk.css.map",
+  "static/media/slick-theme.css": "/profile/static/media/slick.d41f55a7.ttf",
   "static/css/2.1a98a4d7.chunk.css.map": "/profile/static/css/2.1a98a4d7.chunk.css.map",
+  "static/css/main.2d0e1b96.chunk.css.map": "/profile/static/css/main.2d0e1b96.chunk.css.map",
   "index.html": "/profile/index.html",
-  "precache-manifest.4b6de855c76e7ba9ab3a683439ca5d32.js": "/profile/precache-manifest.4b6de855c76e7ba9ab3a683439ca5d32.js",
+  "precache-manifest.9a8cff135a08e2dcda62ca74eb50f2de.js": "/profile/precache-manifest.9a8cff135a08e2dcda62ca74eb50f2de.js",
   "service-worker.js": "/profile/service-worker.js"
 }
