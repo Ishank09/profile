@@ -16,6 +16,7 @@ import {
     FaFacebook,
     FaInstagram,
     FaResearchgate,
+    FaMedium,
 } from 'react-icons/fa';
 import { FiPhone, FiAtSign } from 'react-icons/fi';
 function Landing() {
@@ -90,7 +91,17 @@ function Landing() {
                                 />
                             </a>
                         )}
-                          
+                           {socialsData.medium && (
+                                <a
+                                    href={socialsData.medium}
+                                    target='_blank'
+                                    rel='noreferrer'
+                                    className={classes.socialIcon}
+                                >
+                                    <FaMedium  className='landing--social'
+                                    style={{ color: theme.secondary }} aria-label='Medium Blogs' />
+                                </a>
+                            )}
                         {socialsData.facebook && (
                             <a
                                 href={socialsData.facebook}
@@ -131,6 +142,7 @@ function Landing() {
                                 />
                         </a>
                         )}
+                        
                         
                       
                         {/* {socialsData.youtube && (

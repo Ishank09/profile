@@ -356,6 +356,16 @@ function Contacts() {
                                     <FaResearchgate aria-label='Research Gate' />
                                 </a>
                             )}
+                                      {socialsData.medium && (
+                                <a
+                                    href={socialsData.medium}
+                                    target='_blank'
+                                    rel='noreferrer'
+                                    className={classes.socialIcon}
+                                >
+                                    <FaMediumM aria-label='Medium Blogs' />
+                                </a>
+                            )}
                              {/* {socialsData.twitter && (
                                 <a
                                     href={socialsData.twitter}
