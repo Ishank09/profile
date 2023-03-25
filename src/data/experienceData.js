@@ -2,7 +2,7 @@ import iit from  '../assets/png/Experience/IIT.png';
 import shyanosoft from  '../assets/png/Experience/Shyanosoft.png';
 import zoho from  '../assets/png/Experience/zoho.png';
 import dell from  '../assets/png/Experience/dell.PNG';
-import udub  from  '../assets/png/Experience/University-of-Washington-Logo.png';
+import gix  from  '../assets/png/Experience/gix.jpeg';
 export const experienceData = [
     {
         id: 1,
@@ -51,11 +51,11 @@ export const experienceData = [
     },
     {
         id: 7,
-        company: 'UNIVERSITY OF WASHINGTON - Global Innovation Exchange (GIX)',
-        jobtitle: 'Reader/Grader',
+        company: 'Global Innovation Exchange (GIX) - University of Washington',
+        jobtitle: 'Reader/Grader - Course Assistant',
         startYear: 'Jan 2023',
-        endYear: 'March 2023',
-        type: 'Part Time Employee',
-        image: udub
+        endYear: 'June 2023',
+        type: 'Part Time Employee - On Campus Job',
+        image: gix
     }
 ]
