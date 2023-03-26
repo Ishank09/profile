@@ -363,7 +363,7 @@ function Contacts() {
                                     rel='noreferrer'
                                     className={classes.socialIcon}
                                 >
-                                    <FaMediumM aria-label='Medium Blogs' />
+                                    <FaMediumM aria-label='Medium Blogss' />
                                 </a>
                             )}
                              {/* {socialsData.twitter && (
